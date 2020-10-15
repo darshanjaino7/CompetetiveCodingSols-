@@ -159,7 +159,7 @@ void solve() {
 
 	//taking input of queries
 	f(i, 0, m) {
-		int x, y;
+		long long int x, y;
 		cin >> x >> y;
 		if (depth[y] < depth[x]) {
 			swap(x, y);
@@ -216,7 +216,7 @@ int main() {
 	freopen("input.txt", "r", stdin);
 	freopen("output.txt", "w", stdout);
 #endif
-	int t = 1;
+	long long int t = 1;
 	//cin >> t;
 	while (t--)  solve();
 }
